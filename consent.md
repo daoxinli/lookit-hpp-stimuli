@@ -10,15 +10,23 @@ Researchers led by [`Dr. Kathryn Schuler`] at [`the Linguistics Department at th
 
 ## Procedures
 
-This study takes about [`10 minutes`] to complete. [`procedures`: brief description of study procedures. For this template, do not include risk information here.]
+This study takes about [`15 minutes`] to complete. [`procedures`: With your consent, your baby will first listen to audio recordings for approximately 6 minutes in which they will be exposed to a real or made-up language or pattern.  During the testing phase, your baby will then hear another series of audio recordings consistent or inconsistent with the previous language pattern. We will measure you baby's looking time in the testing trials. Your baby's session will be recorded.]
 
 ## Participation
 
-You and your baby are free to choose whether to be in this study. If you and your baby choose to participate, it's okay to stop at any point during the session. Please pause or stop the session if your baby becomes very fussy or does not want to participate! If this is a study with multiple sessions, it's okay not to complete all the sessions.
+You and your baby are free to choose whether to be in this study. If you and your baby choose to participate, it's okay to stop at any point during the session. Please pause or stop the session if your baby becomes very fussy or does not want to participate! 
 
-## Benefits, risks, and payment
+## Risks
 
-[`payment`: statement about any payment or other compensation AND any other benefits, including a statement that there are no additional benefits anticipated to the participant. Statement about any risks or a statement that there are no anticipated risks.]
+[`risks`: No known risks are associated with this study other than the potential for mild boredom. We minimize this risk by making our studies as engaging as possible so that they are fun for most children. ]
+
+## Benefits
+
+[`Benefits`: Participating in this study will not benefit you or your child directly. You and your child may enjoy contributing to the study of language and cognitive science. ]
+
+## Compensation
+
+Typically we would give your child a book as a thank you for participating in our study. Due to the remote nature of this research, we are providing parents with a $5 gift card as an alternative. 
 
 ## Data collection and webcam recording
 
@@ -30,9 +38,9 @@ No video clips will be published or shared unless you allow this when selecting 
 
 ## Use of data by study researchers
 
-The research group led by [`PIName`] at [`institution`] will have access to video and other data collected during this session. We will also have access to your account profile, demographic survey, and the child profile for the child who is participating, including changes you make in the future to any of this information. We may study your child's responses in connection with his or her previous responses to this or other studies run by our group, siblings' responses to this or other studies run by our group, or demographic survey responses.
+The research group led by [`Dr. Kathryn Schuler`] at [`the Linguistics Department at the University of Pennsylvania`] will have access to video and other data collected during this session. We will also have access to your account profile, demographic survey, and the child profile for the child who is participating, including changes you make in the future to any of this information. We may study your child's responses in connection with his or her previous responses to this or other studies run by our group, siblings' responses to this or other studies run by our group, or demographic survey responses.
 
-[`datause`: study-specific data use statement if applicable]
+[`datause`: We may share your baby’s anonymized data with approved members of our research team, but your child’s name and date of birth will never be associated with any data that is shared. The overall results of this study may be published in scientific journals or discussed at academic conferences, but will never include your baby’s name, date of birth, or any other personal identifying information.]
 
 ## Use of data by Lookit 
 
@@ -40,25 +48,17 @@ Because this study is being run on the Lookit platform, researchers working on t
 
 ## Publication of results
 
-The results of the research may be presented at scientific meetings or published in scientific journals. Raw data (for instance, looking times to the left and right of the screen) may be published when it cannot identify children. We never publish children's birthdates or names, and we never publish your demographic data in conjunction with your child's video.
+The results of the research may be presented at scientific meetings or published in scientific journals. Raw data (for instance, looking times to the left and right of the screen) may be published when it cannot identify babies. We never publish babies' birthdates or names, and we never publish your demographic data in conjunction with your baby's video.
 
-## [Any additional segments here]
-
-if `additional_segments` is provided, each element of that list will be included under its own heading here.
 
 ## Rights of research subjects
 
-[`research_rights_statement`: Statement of rights of research subjects, e.g. including IRB contact info]
+[`research_rights_statement`: Participation in this study is entirely **voluntary** for both you and your baby. You may decline to participate or withdraw from the study at any time without any negative consequences. If you have questions about the study, please contact Kathryn Schuler at 215-898-6909. If you have questions about your child’s rights as a research participant, you may also contact the Office of Regulatory Affairs at the University of Pennsylvania at 215-898-2614.]
 
-## General Data Protection Regulation (GDPR) information [optional section, included if `gdpr` is true]
-
-As part of your participation, we will collect certain personal information about you, including: [`gdpr_personal_data`: list of types of personal information]. In addition, we will collect special category data, your personal information that is especially sensitive: [`gdpr_sensitive_data`: list of types of sensitive personal information]
-
-Your personal information will be transferred to the United States. You understand that the data protection and privacy laws of the United States may not offer you the same level of protection as those in your country of origin.
 
 ## Researcher contact information
 
-This study is run by [`PIName`] at [`institution`].  If you or your child have any questions or concerns about this study, or in the very unlikely event of a research-related injury, please contact [`PIContact`]. 
+This study is run by [`Dr. Kathryn Schuler`] at [`the University of Pennsylvania`].  If you or your child have any questions or concerns about this study, or in the very unlikely event of a research-related injury, please contact [`215-898-6909`]. 
 
 If you or your child have any questions or concerns about the Lookit platform, please contact Kim Scott at kimscott@mit.edu or 617 324 4859.
 
