@@ -18,15 +18,15 @@ You and your baby are free to choose whether to be in this study. If you and you
 
 ## Risks
 
-[`risks`: No known risks are associated with this study other than the potential for mild boredom. We minimize this risk by making our studies as engaging as possible so that they are fun for most children. ]
+[`risks`: No known risks are associated with this study other than the potential for mild boredom. We minimize this risk by making our studies as engaging as possible so that they are fun for most babies. ]
 
 ## Benefits
 
-[`Benefits`: Participating in this study will not benefit you or your child directly. You and your child may enjoy contributing to the study of language and cognitive science. ]
+[`Benefits`: Participating in this study will not benefit you or your baby directly. You and your baby may enjoy contributing to the study of language and cognitive science. ]
 
 ## Compensation
 
-Typically we would give your child a book as a thank you for participating in our study. Due to the remote nature of this research, we are providing parents with a $5 gift card as an alternative. 
+We are providing parents with a $5 gift card as a token of appreciation. 
 
 ## Data collection and webcam recording
 
