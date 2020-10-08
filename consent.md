@@ -1,20 +1,20 @@
 The researcher running an individual study supplies the text in brackets, to be substituted into a standard template. At the top of the form is a link to download a copy of the form. The fields starting `study.` are taken directly from the study definition, rather than being defined in the consent frame.
 
-# Consent to participate in research: [`study.name`]
+# Consent to participate in research: [`Language and pattern learning in infants`]
 
-Researchers led by [`PIName`] at [`institution`] are running this study, "[`study.name`]," on Lookit.
+Researchers led by [`Dr. Kathryn Schuler`] at [`the Linguistics Department at the University of Pennsylvania`] are running this study, "[`Language and pattern learning in infants`]," on Lookit.
 
 ## Purpose
 
-[`purpose`: brief description of purpose of study]
+[`purpose`: We are studying how infants and children learn languages and the ways in which their ability to do so changes with age. ]
 
 ## Procedures
 
-This study takes about [`study.duration`] to complete. [`procedures`: brief description of study procedures. For this template, do not include risk information here.]
+This study takes about [`10 minutes`] to complete. [`procedures`: brief description of study procedures. For this template, do not include risk information here.]
 
 ## Participation
 
-You and your child are free to choose whether to be in this study. If you and your child choose to participate, it's okay to stop at any point during the session. Please pause or stop the session if your child becomes very fussy or does not want to participate! If this is a study with multiple sessions, it's okay not to complete all the sessions.
+You and your baby are free to choose whether to be in this study. If you and your baby choose to participate, it's okay to stop at any point during the session. Please pause or stop the session if your baby becomes very fussy or does not want to participate! If this is a study with multiple sessions, it's okay not to complete all the sessions.
 
 ## Benefits, risks, and payment
 
