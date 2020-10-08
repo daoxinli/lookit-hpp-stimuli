@@ -6,7 +6,7 @@ Researchers led by [`Dr. Kathryn Schuler`] at [`the Linguistics Department at th
 
 ## Purpose
 
-[`purpose`: We are studying how infants and children learn languages and the ways in which their ability to do so changes with age. ]
+[`purpose`: We are studying how infants learn languages and the ways in which their ability to do so changes with age. ]
 
 ## Procedures
 
