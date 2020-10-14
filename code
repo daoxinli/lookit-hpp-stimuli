@@ -1,0 +1,407 @@
+{
+    "frames": {
+        "video-consent": {
+            "kind": "exp-lookit-video-consent",
+            "template": "consent_003",
+            "PIName": "Jane Smith",
+            "institution": "Science University",
+            "PIContact": "Jane Smith at 123 456 7890",
+            "purpose": "Why do babies love cats? This study will help us find out whether babies love cats because of their soft fur or their twitchy tails.",
+            "procedures": "Your child will be shown pictures of lots of different cats, along with noises that cats make like meowing and purring. We are interested in which pictures and sounds make your child smile. We will ask you (the parent) to turn around to avoid influencing your child's responses.",
+            "payment": "After you finish the study, we will email you a $5 BabyStore gift card within approximately three days. To be eligible for the gift card your child must be in the age range for this study, you need to submit a valid consent statement, and we need to see that there is a child with you. But we will send a gift card even if you do not finish the whole study or we are not able to use your child's data! There are no other direct benefits to you or your child from participating, but we hope you will enjoy the experience. There are no anticipated risks associated with participating.",
+            "datause": "We are primarily interested in your child's emotional reactions to the images and sounds. A research assistant will watch your video to measure the precise amount of delight in your child's face as he or she sees each cat picture.",
+            "gdpr": false,
+            "research_rights_statement": "You are not waiving any legal claims, rights or remedies because of your participation in this research study.  If you feel you have been treated unfairly, or you have questions regarding your rights as a research subject, you may contact the [IRB NAME], [INSTITUTION], [ADDRESS/CONTACT]",
+            "additional_segments": [
+                {
+                    "title": "US Patriot Act Disclosure",
+                    "text": "[EXAMPLE ONLY, PLEASE REMOVE ADDITIONAL_SEGMENTS UNLESS YOU NEED THEM.] Lookit is a U.S. organization and all information gathered from the website is stored on servers based in the U.S. Therefore, your video recordings are subject to U.S. laws, such as the US Patriot Act. This act allows authorities access to the records of internet service providers. If you choose to participate in this study, you understand that your video recording will be stored and accessed in the USA. The security and privacy policy for Lookit can be found at the following link: <a href='https://lookit.mit.edu/privacy/' target='_blank'>https://lookit.mit.edu/privacy/</a>."
+                }
+            ]
+        },
+        "trial-1": {
+            "kind": "exp-lookit-video-infant-control",
+            "lookawayKey": "p",
+            "lookawayType": "total",
+            "lookawayThreshold": 2,
+            "endTrialKey": "q",
+            "audio": {
+                "loop": false,
+                "source": "peekaboo"
+            },
+            "video": {
+                "top": 10,
+                "left": 25,
+                "loop": true,
+                "width": 50,
+                "source": "cropped_apple"
+            },
+            "backgroundColor": "white",
+            "autoProceed": true,
+            "parentTextBlock": {
+                "text": "If your baby looks away, press and hold the key 'p' until they look back. If your child needs a break, just press X to pause!"
+            },
+            "requiredDuration": 0,
+            "requireAudioCount": 0,
+            "requireVideoCount": 5,
+            "restartAfterPause": true,
+            "pauseKey": "x",
+            "pauseKeyDescription": "X",
+            "pauseAudio": "pause",
+            "pauseVideo": "attentiongrabber",
+            "pauseText": "(You'll have a moment to turn around again.)",
+            "unpauseAudio": "return_after_pause",
+            "doRecording": true,
+            "baseDir": "https://www.mit.edu/~kimscott/placeholderstimuli/",
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "exposure-sample": {
+            "kind": "choice",
+            "sampler": "random-parameter-set",
+            "frameList": [
+                {
+                    "kind": "exp-lookit-images-audio",
+                    "images": [
+                        {
+                            "id": "cats",
+                            "src": "three_cats.JPG",
+                            "top": 10,
+                            "left": 30,
+                            "width": 40
+                        }
+                        ],
+                    "autoProceed": true,
+                    "doRecording": true,
+                    "audio": "audio1"
+                },
+                {
+                    "kind": "exp-lookit-images-audio",
+                    "images": [
+                        {
+                            "id": "cats",
+                            "src": "three_cats.JPG",
+                            "top": 10,
+                            "left": 30,
+                            "width": 40
+                        }
+                    ],
+                    "baseDir": "https://www.mit.edu/~kimscott/placeholderstimuli/",
+                    "autoProceed": true,
+                    "doRecording": true,
+                    "audio": "audio2"
+                },
+                {
+                    "kind": "exp-lookit-images-audio",
+                    "images": [
+                        {
+                            "id": "cats",
+                            "src": "three_cats.JPG",
+                            "top": 10,
+                            "left": 30,
+                            "width": 40
+                        }
+                    ],
+                    "baseDir": "https://www.mit.edu/~kimscott/placeholderstimuli/",
+                    "autoProceed": true,
+                    "doRecording": true,
+                    "audio": "audio3"
+                }
+            ],
+            "parameterSets": [
+                {
+                    "audio1": "sample_1",
+                    "audio2": "sample_2",
+                    "audio3": "sample_3"
+                },
+                {"audio3": "sample_1",
+                    "audio1": "sample_2",
+                    "audio2": "sample_3"
+                }
+            ],
+            "commonFrameProperties": {
+                "baseDir": "https://www.mit.edu/~kimscott/placeholderstimuli/",
+                "audioTypes": [
+                    "ogg",
+                    "mp3"
+                ],
+                "videoTypes": [
+                    "webm",
+                    "mp4"
+                ]
+            }
+        },
+        "test-trials": {
+            "kind": "choice",
+            "sampler": "random-parameter-set",
+            "frameList": [
+                {
+                    "video": {
+                        "loop": false,
+                        "source": "VIDEO1",
+                        "position": "fill"
+                    }
+                },
+                {
+                    "video": {
+                        "loop": false,
+                        "source": "VIDEO2",
+                        "position": "fill"
+                    }
+                },
+                {
+                    "video": {
+                        "loop": false,
+                        "source": "VIDEO3",
+                        "position": "fill"
+                    }
+                },
+                {
+                    "video": {
+                        "loop": false,
+                        "source": "VIDEO4",
+                        "position": "fill"
+                    }
+                }
+            ],
+            "parameterSets": [
+                {
+                    "VIDEO1": "cropped_apple",
+                    "VIDEO2": "cropped_book",
+                    "VIDEO3": "cropped_box",
+                    "VIDEO4": "cropped_cup",
+                    "ALTVIDEO1": "cropped_block",
+                    "ALTVIDEO2": "cropped_bowl",
+                    "ALTVIDEO3": "cropped_brush",
+                    "ALTVIDEO4": "cropped_duck"
+                },
+                {
+                    "VIDEO1": "cropped_cup",
+                    "VIDEO2": "cropped_box",
+                    "VIDEO3": "cropped_book",
+                    "VIDEO4": "cropped_apple",
+                    "ALTVIDEO1": "cropped_duck",
+                    "ALTVIDEO2": "cropped_brush",
+                    "ALTVIDEO3": "ropped_bowl",
+                    "ALTVIDEO4": "cropped_block"
+                }
+            ],
+            "commonFrameProperties": {
+                "kind": "exp-lookit-video-infant-control",
+                "baseDir": "https://www.mit.edu/~kimscott/placeholderstimuli/",
+                "lookawayKey": "p",
+                "lookawayType": "total",
+                "lookawayThreshold": 2,
+                "endTrialKey": "q",
+                "backgroundColor": "white",
+                "autoProceed": true,
+                "parentTextBlock": {
+                    "text": "If your baby looks away, press and hold the key 'p' until they look back. If your child needs a break, just press X to pause!"
+                },
+                "requiredDuration": 0,
+                "requireAudioCount": 0,
+                "requireVideoCount": 5,
+                "restartAfterPause": true,
+                "pauseKey": "x",
+                "pauseKeyDescription": "X",
+                "pauseAudio": "pause",
+                "pauseVideo": "attentiongrabber",
+                "pauseText": "(You'll have a moment to turn around again.)",
+                "unpauseAudio": "return_after_pause",
+                "doRecording": true,
+                "audio": {
+                    "loop": false,
+                    "source": "peekaboo"
+                },
+                "audioTypes": [
+                    "ogg",
+                    "mp3"
+                ],
+                "videoTypes": [
+                    "webm",
+                    "mp4"
+                ]
+            }
+        },
+        "test-trial-sample": {
+            "kind": "choice",
+            "sampler": "random-parameter-set",
+            "frameList": [
+                {
+                    "kind": "exp-lookit-images-audio",
+                    "images": [
+                        {
+                            "src": "peekaboo_remy.jpg",
+                            "position": "fill"
+                        }
+                    ],
+                    "autoProceed": false,
+                    "doRecording": true,
+                     "showPreviousButton": false,
+                    "audio": "peekaboo",
+                    "parentTextBlock": {
+                        "text": "Press on the 'next' button when your baby is ready for the next trial!"
+                    }
+                },
+                {
+                    "video": {
+                        "loop": false,
+                        "source": "VIDEO1",
+                        "position": "fill"
+                    },
+                    "kind": "exp-lookit-video-infant-control",
+                    "lookawayToneVolume": 0,
+                    "lookawayKey": "p",
+                    "lookawayType": "total",
+                    "lookawayThreshold": 2,
+                    "endTrialKey": "q",
+                    "backgroundColor": "white",
+                    "autoProceed": true,
+                    "parentTextBlock": {
+                        "text": "If your baby looks away, press and hold the key 'p' until they look back. If your child needs a break, just press X to pause!"
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 5,
+                    "restartAfterPause": true,
+                    "pauseKey": "x",
+                    "pauseKeyDescription": "X",
+                    "pauseAudio": "pause",
+                    "pauseVideo": "attentiongrabber",
+                    "pauseText": "(You'll have a moment to turn around again.)",
+                    "unpauseAudio": "return_after_pause",
+                    "doRecording": true
+                    
+                },
+                {
+                    "kind": "exp-lookit-images-audio",
+                    "images": [
+                        {
+                            "src": "peekaboo_remy.jpg",
+                            "position": "fill"
+                        }
+                    ],
+                    "autoProceed": false,
+                    "audio": "peekaboo",
+                     "showPreviousButton": false,
+                    "doRecording": true,
+                    "parentTextBlock": {
+                        "text": "Press on the 'next' button when your baby is ready for the next trial!"
+                    }
+                },
+                {
+                    "video": {
+                        "loop": false,
+                        "source": "VIDEO2",
+                        "position": "fill"
+                    },
+                    "kind": "exp-lookit-video-infant-control",
+                    "lookawayKey": "p",
+                    "lookawayToneVolume": 0,
+                    "lookawayType": "total",
+                    "lookawayThreshold": 2,
+                    "endTrialKey": "q",
+                    "backgroundColor": "white",
+                    "autoProceed": true,
+                    "parentTextBlock": {
+                        "text": "If your baby looks away, press and hold the key 'p' until they look back. If your child needs a break, just press X to pause!"
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 5,
+                    "restartAfterPause": true,
+                    "pauseKey": "x",
+                    "pauseKeyDescription": "X",
+                    "pauseAudio": "pause",
+                    "pauseVideo": "attentiongrabber",
+                    "pauseText": "(You'll have a moment to turn around again.)",
+                    "unpauseAudio": "return_after_pause",
+                    "doRecording": true
+                    
+                }
+            ],
+            "parameterSets": [
+                {
+                    "VIDEO1": "cropped_apple",
+                    "VIDEO2": "cropped_book",
+                    "VIDEO3": "cropped_box",
+                    "VIDEO4": "cropped_cup",
+                    "ALTVIDEO1": "cropped_block",
+                    "ALTVIDEO2": "cropped_bowl",
+                    "ALTVIDEO3": "cropped_brush",
+                    "ALTVIDEO4": "cropped_duck"
+                },
+                {
+                    "VIDEO1": "cropped_cup",
+                    "VIDEO2": "cropped_box",
+                    "VIDEO3": "cropped_book",
+                    "VIDEO4": "cropped_apple",
+                    "ALTVIDEO1": "cropped_duck",
+                    "ALTVIDEO2": "cropped_brush",
+                    "ALTVIDEO3": "ropped_bowl",
+                    "ALTVIDEO4": "cropped_block"
+                }
+            ],
+            "commonFrameProperties": {
+                "baseDir": "https://www.mit.edu/~kimscott/placeholderstimuli/",
+                "doRecording": true,
+                "audioTypes": [
+                    "ogg",
+                    "mp3"
+                ],
+                "videoTypes": [
+                    "webm",
+                    "mp4"
+                ]
+            }
+        },
+        "exposure-intro": {
+       "blocks": [
+           {
+              
+               "title": "Part I Instruction"
+           },
+           {
+               "text": "In this part, your baby will hear a series of audio recordings. You don't need to do anything in this part!"
+           },
+           {
+               "text": "Some other instructions?"
+           }
+       ],
+       "showPreviousButton": false,
+       "kind": "exp-lookit-text"
+   },
+   "test-intro": {
+       "blocks": [
+           {
+              
+               "title": "Part II Instruction"
+           },
+           {
+               "text": "In this part, your baby will hear a series of audio recordings. You need to mark when your baby looks at the screen and when your baby looks away."
+           },
+           {
+               "text": "In each trial, first there will be an attention grabber picture and sound. When your baby looks at the screen, press on the 'next' button to proceed."
+           },
+           {
+               "text": "Then, your baby will hear a sentence pair repeated multiple times. When your baby looks away, please press and hold the key 'p'. When you need to pause the study, please press on the key 'x'."
+           }
+       ],
+       "showPreviousButton": false,
+       "kind": "exp-lookit-text"
+   }
+    },
+    "sequence": [
+        "video-consent",
+        "exposure-intro",
+        "exposure-sample",
+        "test-intro",
+        "test-trial-sample"
+    ]
+}
